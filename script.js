@@ -24,7 +24,7 @@ function draw(){
   line(width/2 - 10, height/2 + 5, width/2 - 30, height/2 + 10); // left middle whisker
   line(width/2 + 10, height/2 + 5, width/2 + 30, height/2 + 10); // right middle whisker
   noFill();
-  arc(width/2 - 10, height/2 + 12, 20, 20, 0, PI);
-  arc(width/2 + 10, height/2 + 12, 20, 20, 0, PI);
+  arc(width/2 - 10, height/2 + 12, 20, 20, 0, PI); // mouth left
+  arc(width/2 + 10, height/2 + 12, 20, 20, 0, PI); // mouth right
 
 }
